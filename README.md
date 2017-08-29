@@ -1,5 +1,7 @@
 # Golang Microservices Example
 
+## NOTE: This is a modified version from Harlow's work to use it independently from docker.
+
 An demonstration of Golang micro-services that accept HTTP/JSON requests at API level and then
 leverage [gRPC][1] for inter-service communication. The example application plots Hotel locations on a Google map:
 

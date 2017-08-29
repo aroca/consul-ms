@@ -55,8 +55,8 @@ func (s *server) Nearby(ctx context.Context, req *search.NearbyRequest) (*search
 func main() {
 	var (
 		port     = flag.Int("port", 8080, "The server port")
-		geoAddr  = flag.String("geoaddr", "geo:8080", "Geo server addr")
-		rateAddr = flag.String("rateaddr", "rate:8080", "Rate server addr")
+		geoAddr  = flag.String("geoaddr", "geo.service.consul:8080", "Geo server addr")
+		rateAddr = flag.String("rateaddr", "rate.service.consul:8080", "Rate server addr")
 	)
 	flag.Parse()
 

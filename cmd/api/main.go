@@ -14,8 +14,8 @@ import (
 func main() {
 	var (
 		port        = flag.String("port", "8080", "The server port")
-		searchAddr  = flag.String("searchaddr", "search:8080", "Search service addr")
-		profileAddr = flag.String("profileaddr", "profile:8080", "Profile service addr")
+		searchAddr  = flag.String("searchaddr", "search.service.consul:8080", "Search service addr")
+		profileAddr = flag.String("profileaddr", "profile.service.consul:8080", "Profile service addr")
 	)
 	flag.Parse()
 
