@@ -81,7 +81,7 @@ func newGeoIndex(path string) *geoindex.ClusteringIndex {
 
 func main() {
 	// port number
-	var port = flag.Int("port", 8080, "The server port")
+	var port = flag.Int("port", 8083, "The server port")
 	flag.Parse()
 
 	// tcp listener

@@ -63,7 +63,7 @@ func loadRateTable(path string) map[stay]*rate.RatePlan {
 
 func main() {
 	// server port
-	var port = flag.Int("port", 8080, "The server port")
+	var port = flag.Int("port", 8084, "The server port")
 	flag.Parse()
 
 	// tcp listener

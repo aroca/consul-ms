@@ -45,7 +45,7 @@ func loadProfiles(path string) map[string]*profile.Hotel {
 
 func main() {
 	// service port
-	var port = flag.Int("port", 8080, "The server port")
+	var port = flag.Int("port", 8082, "The server port")
 	flag.Parse()
 
 	// tcp listener
